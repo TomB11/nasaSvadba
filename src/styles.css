@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  width: auto;
+  height: 100%;
+  margin: 0;
+  background-image: url(assets/img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body .shadow {
+  background-color: rgba(250, 250, 250, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body .content-page {
+  position: absolute;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  font-weight: bold;
+}
