@@ -1,4 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: myFirstFont;
+  src: url(assets/font/Lucida Handwriting Italic.ttf);
+}
+
 body {
   width: auto;
   height: 100%;
@@ -6,6 +11,7 @@ body {
   background-image: url(assets/img/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: myFirstFont;
 }
 
 body .shadow {
