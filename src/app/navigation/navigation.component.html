@@ -1,5 +1,18 @@
-<div class="header-nav">
-  <div class="menu-nav">
+<div class="top-nav">
+  <div class="logo-img">
+    <a href="#home" class="active">
+      <img src="assets/img/logo.png" alt="logo">
+    </a>
+  </div>
+  <div class="my-select">
+    <div id="nav-icon3" [class.open]="isOpen" (click)="openMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+  <div [ngClass]="{'close-menu': !this.isOpen, 'open-menu': this.isOpen}" class="nav-links" id="myLinks">
     <div class="nav-item">
       <a href="/">O NAS</a>
     </div>
@@ -13,4 +26,7 @@
       <a href="/">KONTAKT</a>
     </div>
   </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
 </div>

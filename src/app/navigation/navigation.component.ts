@@ -7,9 +7,28 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavigationComponent implements OnInit {
 
+  public innerWidth : any;
+  public isOpen = false;
+  public mobileClasses = {
+    "close-menu": !this.isOpen,
+    "open-menu": this.isOpen
+  }
+  public isMobile = false;
+
   constructor() { }
 
   ngOnInit(): void {
+    innerWidth = window.innerWidth;
+    if (this.innerWidth > 768) {
+      this.isMobile = false
+    } else {
+      this.isMobile = true
+    }
   }
+
+  openMenu() {
+    this.isOpen = !this.isOpen;
+  }
+
 
 }
