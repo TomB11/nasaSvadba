@@ -11,6 +11,8 @@ export class AppComponent {
   title = 'Budeme sa brat za';
   weddingTime = ""
 
+  public separator1 = "O nas"
+
   countDownDate = new Date("July 17, 2021 00:00:00").getTime();
   now = new Date().getTime();
   distance = 0

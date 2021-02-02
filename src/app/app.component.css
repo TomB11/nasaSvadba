@@ -1,11 +1,15 @@
 .content {
   text-align: center;
-  padding: 25px;
-  display: flex;
-  flex-direction: column;
-  position: absolute;
+  padding: 25px 0;
+  height: 100%;
+  overflow: auto;
+}
+
+.preview {
   width: 100%;
-  height: 80%;
+  flex-direction: column;
+  display: flex;
+  height: 100%;
   justify-content: center;
 }
 
@@ -24,6 +28,23 @@
   padding: 20px;
 }
 
+.forever-title {
+  background-color: white;
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.forever-title img {
+  width: 80%;
+  flex: 1;
+}
+
+.forever-title span {
+  flex: 1;
+}
+
 
 @media (min-width: 768px) {
   .title span {
@@ -32,5 +53,14 @@
 
   .wedding-time span {
     font-size: 40px;
+  }
+
+  .forever-title img {
+    width: 50%;
+  }
+
+  .forever-title span {
+    font-size: 22px;
+    width: 50%;
   }
 }

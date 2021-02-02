@@ -9,10 +9,6 @@ export class NavigationComponent implements OnInit {
 
   public innerWidth : any;
   public isOpen = false;
-  public mobileClasses = {
-    "close-menu": !this.isOpen,
-    "open-menu": this.isOpen
-  }
   public isMobile = false;
 
   constructor() { }
@@ -29,6 +25,4 @@ export class NavigationComponent implements OnInit {
   openMenu() {
     this.isOpen = !this.isOpen;
   }
-
-
 }

@@ -1,0 +1,14 @@
+.separator {
+  background: transparent;
+  padding: 100px 25px;
+}
+
+.separator span {
+  font-size: 4em
+}
+
+@media (min-width: 768px) {
+  .separator span {
+    font-size: 7em
+  }
+}
