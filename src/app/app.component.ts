@@ -8,10 +8,13 @@ import { interval } from 'rxjs';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Budeme sa brat za';
+  title = 'Budeme sa brat';
   weddingTime = ""
 
   public separator1 = "O nas"
+  public separator2 = "Miesto a cas"
+  public separator3 = "Svadobny formular"
+  public separator4 = "Kontakt"
 
   countDownDate = new Date("July 17, 2021 00:00:00").getTime();
   now = new Date().getTime();
