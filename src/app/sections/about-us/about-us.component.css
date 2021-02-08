@@ -1,0 +1,11 @@
+.time-line {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  .time-line {
+    width: 80%;
+  }
+}

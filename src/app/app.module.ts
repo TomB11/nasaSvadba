@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -9,6 +11,7 @@ import { TimeLocationComponent } from './sections/time-location/time-location.co
 import { WeddingFormComponent } from './sections/wedding-form/wedding-form.component';
 import { ContactComponent } from './sections/contact/contact.component';
 import { SeparatorComponent } from './components/separator/separator.component';
+import { TimeLineMomentComponent } from './components/time-line-moment/time-line-moment.component';
 
 @NgModule({
   declarations: [
@@ -18,11 +21,14 @@ import { SeparatorComponent } from './components/separator/separator.component';
     TimeLocationComponent,
     WeddingFormComponent,
     ContactComponent,
-    SeparatorComponent
+    SeparatorComponent,
+    TimeLineMomentComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
