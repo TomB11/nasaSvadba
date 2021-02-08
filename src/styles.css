@@ -8,7 +8,7 @@ body {
   width: auto;
   height: 100%;
   margin: 0;
-  background-image: url(assets/img/background.jpg);
+  background-image: url(assets/img/backimgM.jpg);
   background-size: auto;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -61,6 +61,7 @@ a:hover {
 @media (min-width: 768px) {
   body {
     font-size: 14px;
+    background-image: url(assets/img/backimg1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }

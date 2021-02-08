@@ -1,7 +1,7 @@
 <div class="top-nav">
   <div class="logo-img">
     <a href="#home" class="active">
-      <img src="assets/img/logo.png" alt="logo">
+      <img src="assets/img/logo.jpg" alt="logo">
     </a>
   </div>
   <div class="my-select">
@@ -14,16 +14,16 @@
   </div>
   <div [ngClass]="{'close-menu': !this.isOpen, 'open-menu': this.isOpen}" class="nav-links" id="myLinks">
     <div class="nav-item">
-      <a href="#item1">O NAS</a>
+      <a href="#item1" (click)="openMenu()">O NAS</a>
     </div>
     <div class="nav-item">
-      <a href="#item2">MIESTO A CAS</a>
+      <a href="#item2" (click)="openMenu()">MIESTO A CAS</a>
     </div>
     <div class="nav-item">
-      <a href="#item3">SVADOBNY FORMULAR</a>
+      <a href="#item3" (click)="openMenu()">SVADOBNY FORMULAR</a>
     </div>
     <div class="nav-item">
-      <a href="#item4">KONTAKT</a>
+      <a href="#item4" (click)="openMenu()">KONTAKT</a>
     </div>
   </div>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">

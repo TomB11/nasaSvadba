@@ -1,6 +1,7 @@
 .separator {
   background: transparent;
   padding: 100px 25px;
+  color: white;
 }
 
 .separator span {
