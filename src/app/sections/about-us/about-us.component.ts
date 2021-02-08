@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutUsComponent implements OnInit {
 
-  public photo1 = "assets/img/20142.jpg"
+  public photo1 = "assets/img/2014.jpg"
   public photo2 = "assets/img/2017.jpg"
   public photo3 = "assets/img/loki.jpg"
   public photo4 = "assets/img/2020.jpg"
