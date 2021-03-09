@@ -1,14 +1,23 @@
 .location {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
 }
 
 .map {
   flex: 1;
+  margin-top: 10px;
 }
 
 .loccation-description {
   flex: 1;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  font-size: 20px;
 }
 
 .my-map {
@@ -24,5 +33,9 @@
   .my-map {
     width: 90%;
     height: 450px;
+  }
+
+  .map {
+    margin-top: 0;
   }
 }

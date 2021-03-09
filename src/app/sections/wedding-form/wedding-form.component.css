@@ -1,0 +1,27 @@
+.first-info,
+.second-info,
+.third-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  flex: 1;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group textarea,
+.form-group input {
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .first-info,
+  .second-info,
+  .third-info {
+    display: flex;
+    flex-direction: row;
+  }
+}

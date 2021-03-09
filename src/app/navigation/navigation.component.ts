@@ -25,4 +25,8 @@ export class NavigationComponent implements OnInit {
   openMenu() {
     this.isOpen = !this.isOpen;
   }
+
+  changeLang(choosedLang: string) {
+
+  }
 }

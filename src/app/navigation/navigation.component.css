@@ -56,6 +56,17 @@
   padding-right: 10px;
 }
 
+.nav-lang {
+  flex: 1;
+  align-self: center;
+}
+
+.nav-lang img {
+  width: 100px;
+  padding: 5px 10px;
+  height: 70px;
+}
+
 #nav-icon3 {
   z-index: 1100;
   width: 60px;
@@ -153,5 +164,20 @@
     background: transparent;
     padding: 10px;
     position: relative;
+  }
+
+  .nav-lang {
+    flex: 0;
+    align-self: center;
+  }
+
+  .nav-lang img {
+    width: 50px;
+    margin: 5px 0;
+    height: 30px;
+  }
+
+  .nav-lang img:hover {
+    cursor: pointer;
   }
 }

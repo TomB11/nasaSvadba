@@ -13,11 +13,11 @@ export class AboutUsComponent implements OnInit {
   public photo4 = "assets/img/2020.jpg"
   public photo5 = "assets/img/2021.jpg"
 
-  public desc1 = "Fotka 2014"
-  public desc2 = "Fotka 2017"
-  public desc3 = "Fotka Loki"
-  public desc4 = "Fotka 2020"
-  public desc5 = "Fotka 2021"
+  public desc1 = "Začali sme randiť"
+  public desc2 = "Naše prvé spoločné bývanie"
+  public desc3 = "Nasťahoval sa k nám Loki"
+  public desc4 = "Zasnúbili sme sa"
+  public desc5 = "Povieme si ÁNO"
 
   constructor() { }
 
