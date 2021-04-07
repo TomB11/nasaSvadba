@@ -4,55 +4,55 @@
       method="POST">
       <div class="first-info">
         <div class="form-group">
-          <label for="Name">Svadobčania</label>
+          <label for="Name">{{name}}</label>
           <input
             class="form-control"
             type="text"
             name="Name"
-            placeholder="Priezvisko"
+            placeholder="{{placeholderName}}"
           />
         </div>
         <div class="form-group">
-          <label for="come">Zúčastníte sa?</label>
+          <label for="come">{{come}}</label>
           <label>
            <input type="radio" value="yes" name="come">
-             <span>ano</span>
+             <span>{{option1}}</span>
          </label>
          <label>
            <input type="radio" value="no" name="come">
-             <span>nie</span>
+             <span>{{option2}}</span>
          </label>
         </div>
         <div class="form-group">
-          <label for="contact">Kontakt</label>
+          <label for="contact">{{contact}}</label>
           <input
             class="form-control"
             type="text"
             name="contact"
-            placeholder="Váš e-mail/Tel">
+            placeholder="{{placeholderContact}}">
         </div>
       </div>
       <div class="second-info">
         <div class="form-group">
-          <label for="clasic">Klasické menu</label>
-          <textarea name="clasic" placeholder="Pre koho (napísať mená)" style="height:90px"></textarea>
+          <label for="clasic">{{classicMenu}}</label>
+          <textarea name="clasic" placeholder="{{placeholderMenu}}" style="height:90px"></textarea>
         </div>
         <div class="form-group">
-          <label for="children">Detské menu?</label>
-          <textarea name="children" placeholder="Pre koho (napísať mená)" style="height:90px"></textarea>
+          <label for="children">{{childrenMenu}}</label>
+          <textarea name="children" placeholder="{{placeholderMenu}}" style="height:90px"></textarea>
         </div>
         <div class="form-group">
-          <label for="vegie">Vegetariánske menu</label>
-          <textarea name="vegie" placeholder="Pre koho (napísať mená)" style="height:90px"></textarea>
+          <label for="vegie">{{vegieMenu}}</label>
+          <textarea name="vegie" placeholder="{{placeholderMenu}}" style="height:90px"></textarea>
         </div>
       </div>
       <div class="third-info">
         <div class="form-group">
-          <label for="music">Piesne na želanie</label>
-          <textarea name="music" placeholder="Názvy piesní" style="height:90px"></textarea>
+          <label for="music">{{music}}</label>
+          <textarea name="music" placeholder="{{placeholderMusic}}" style="height:90px"></textarea>
         </div>
       </div>
-      <input type="submit" value="Odoslať">
+      <input type="submit" value="{{buttonText}}">
     </form>
   </div>
 </div>

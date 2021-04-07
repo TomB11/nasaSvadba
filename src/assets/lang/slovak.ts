@@ -14,17 +14,17 @@ export class Slovak {
   public static desc4 = "Zasnúbili sme sa"
   public static desc5 = "Povieme si ÁNO"
 
-  public static timeLocationTitle1 = "Začali sme randit"
-  public static timeLocationTitle2 = "Naše prvé spoločné bývanie"
-  public static timeLocationDescription1 = "Nasťahoval sa k nám Loki"
-  public static timeLocationDescription2 = "Nasťahoval sa k nám Loki"
+  public static timeLocationTitle1 = "Sobáš"
+  public static timeLocationTitle2 = "Hostina"
+  public static timeLocationDescription1 = "V kostole Krista Kráľa v Chorvátskom Grobe"
+  public static timeLocationDescription2 = "V hoteli Agátka v Chorvátskom Grobe"
   public static timeLocationTime1 = "o 15:00 hod"
   public static timeLocationTime2 = "o 17:00 hod"
 
   public static questName = "Svadobčania"
   public static placeholderName = "Priezvisko"
   public static come = "Zúčastníte sa?"
-  public static opion1 = "áno"
+  public static option1 = "áno"
   public static option2 = "nie"
   public static contact = "Kontakt"
   public static placeholderContact = "Váš E-mail/Tel"
@@ -34,4 +34,5 @@ export class Slovak {
   public static placeholderMenu = "Pre koho? (napísať mená)"
   public static music = "Piesne na želanie"
   public static placeholderMusic = "Názvy piesní"
+  public static buttonText = "Odoslať"
 }

@@ -24,7 +24,7 @@ export class English {
   public static questName = "Wedding Guests"
   public static placeholderName = "Last name"
   public static come = "Will you attend?"
-  public static opion1 = "Yes"
+  public static option1 = "Yes"
   public static option2 = "No"
   public static contact = "Contact"
   public static placeholderContact = "Your E-mail/Tel"
@@ -34,4 +34,6 @@ export class English {
   public static placeholderMenu = "For Who? (write names)"
   public static music = "Song requests"
   public static placeholderMusic = "Song names"
+  public static buttonText = "Send"
+
 }
