@@ -33,7 +33,10 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/lang/slovak.ts",
+              "src/assets/lang/english.ts"
+            ]
           },
           "configurations": {
             "production": {

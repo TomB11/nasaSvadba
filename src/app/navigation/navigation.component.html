@@ -14,20 +14,20 @@
   </div>
   <div [ngClass]="{'close-menu': !this.isOpen, 'open-menu': this.isOpen}" class="nav-links" id="myLinks">
     <div class="nav-item">
-      <a href="#item1" (click)="openMenu()">O NÁS</a>
+      <a href="#item1" (click)="openMenu()">{{nav1}}</a>
     </div>
     <div class="nav-item">
-      <a href="#item2" (click)="openMenu()">MIESTO A ČAS</a>
+      <a href="#item2" (click)="openMenu()">{{nav2}}</a>
     </div>
     <div class="nav-item">
-      <a href="#item3" (click)="openMenu()">SVADOBNÝ FORMULÁR</a>
+      <a href="#item3" (click)="openMenu()">{{nav3}}</a>
     </div>
     <div class="nav-item">
-      <a href="#item4" (click)="openMenu()">KONTAKT</a>
+      <a href="#item4" (click)="openMenu()">{{nav4}}</a>
     </div>
     <div class="nav-lang">
-      <img src="assets/img/svk.jpg" alt="svk">
-      <img src="assets/img/de.jpg" alt="de">
+      <img src="assets/img/svk.jpg" alt="svk" (click)="changeLang('svk')">
+      <img src="assets/img/eng.png" alt="eng" (click)="changeLang('eng')">
     </div>
   </div>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">

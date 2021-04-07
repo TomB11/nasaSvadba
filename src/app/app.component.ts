@@ -1,6 +1,8 @@
 import { Component, LOCALE_ID } from '@angular/core';
 import { formatDate } from '@angular/common';
 import { interval } from 'rxjs';
+import {Slovak} from '../assets/lang/slovak';
+import {English} from '../assets/lang/english';
 
 @Component({
   selector: 'app-root',
@@ -11,10 +13,12 @@ export class AppComponent {
   title = 'Budeme sa brať';
   weddingTime = ""
 
-  public separator1 = "O nás"
-  public separator2 = "Miesto a čas"
-  public separator3 = "Svadobný formulár"
-  public separator4 = "Kontakt"
+  public separator1 = ""
+  public separator2 = ""
+  public separator3 = ""
+  public separator4 = ""
+
+  public motoText = ""
 
   countDownDate = new Date("July 17, 2021 00:00:00").getTime();
   now = new Date().getTime();
@@ -28,6 +32,23 @@ export class AppComponent {
     interval(1000).subscribe(x => {
       this.counter();
     });
+
+    const currentLanguage = localStorage.getItem('language');
+    if (currentLanguage === 'eng') {
+      this.title = English.bigMainTitle
+      this.motoText = English.motoText
+      this.separator1 = English.navItem1
+      this.separator2 = English.navItem2
+      this.separator3 = English.navItem3
+      this.separator4 = English.navItem4
+    } else {
+      this.title = Slovak.bigMainTitle
+      this.motoText = Slovak.motoText
+      this.separator1 = Slovak.navItem1
+      this.separator2 = Slovak.navItem2
+      this.separator3 = Slovak.navItem3
+      this.separator4 = Slovak.navItem4
+    }
   }
 
   counter() {
